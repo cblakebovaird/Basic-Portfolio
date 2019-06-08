@@ -1,21 +1,47 @@
 header {
     background-color: teal;
     color: white;
+    background-size: 200px, 200px;
 }
 
 .title {
-    color: teal
+    color: teal;
+    border-bottom-style: solid, black, medium;
 }
 
 p{
-    text-align: left;
+    text-align: justify;
+    margin-right: 150;
+    margin-left: 75px;
+    width: 1000px;
+    padding: 125px;
 }
 
 div{
     border: black;
+    background-color: white;
+
 }
 
 button{
     color: white;
     background-color: teal;
+}
+
+img{
+    float: left;
+}
+
+body{
+    background-color:lightgray;
+}
+
+div.contact{
+    margin:auto;
+    width: 700px;
+    float:center;
+}
+
+div.pagelinks{
+    float: right;
 }
