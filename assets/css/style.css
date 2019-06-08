@@ -1,0 +1,16 @@
+header {
+    background-color: teal;
+    color: white;
+}
+
+.title {
+    color: teal
+}
+
+p{
+    text-align: left;
+}
+
+div{
+    border: black;
+}

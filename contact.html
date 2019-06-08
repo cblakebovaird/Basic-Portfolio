@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 <body>
-    <header>Blake Bovaird</header>
+    <header>
+        <h1>Blake Bovaird</h1>
+    </header>
 
     <br>
     <a href="index.html">About</a>
@@ -15,16 +20,22 @@
     <a href="contact.html">Contact</a>
     <br>
 
-    <h2>Contact</h2>
+    <h2 class="title" >Contact</h2>
 
     <form>
         Name:<br>
-        <input type="text" name="firstname + lastname"><br>
+        <textarea name="name" cols="100"></textarea><br>
         Email:<br>
-        <input type="text" name="email"><br>
+        <textarea name="email" cols="100"></textarea><br>
         Message:<br>
-        <input type="text" name="message">
+        <textarea name="message" rows="10" cols="100"></textarea>
+
+        <!-- still need to work on text area and font size-->
+
     </form>
 
+    <button type="button">Submit
+    
+    </button>
 </body>
 </html>
