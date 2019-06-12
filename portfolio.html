@@ -1,52 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
     <title>Portfolio</title>
 
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" type ="text/css" href="assets/css/style.css">  
 
 </head>
+
 <body>
-    <header>
-        <h1 class="name">Blake Bovaird
-
-        <ul class="links">
-                <li><a class="active" href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li></lo><a href="contact.html">Contact</a></li>
-            </ul>
-</h1>
-    </header>
     
-    <br>
-  
-    <br>
 
-    <h1 class="title" >Portfolio</h1>
+     
 
-    <img src="assets/images/pic 1.jpeg" style="width:20%; height:20%;"> 
+ <!--Header-->
+ <header>
+         
+        
+        
+        <div class="navigation">
+            
+                
+                
+          
+        <nav>
+            <ul>
+                
+                <li><a href="index.html">About </a></li> 
 
-    <img src="assets/images/pic 2.jpeg" style="width:20%; height:20%;"> 
+                <li style="color: #f1f1f1">  | </li>
 
-    <br>
+                <li><a href="portfolio.html">Portfolio </a></li> 
 
-    <img src="assets/images/pic 3.jpeg" style="width:20%; height:20%;"> 
+                <li style="color: #f1f1f1">  | </li>
 
-    <img src="assets/images/pic 4.jpeg" style="width:20%; height:20%;"> 
+                <li><a href="contact.html">Contact</a></li>
+                
+        
+            </ul>
+        </nav>
 
-    <br>
+       
+            <h1 class="name">Blake Bovaird</h1>
 
-    <img src="assets/images/pic 5.jpeg" style="width:20%; height:20%;"> 
+        </div>
 
-    <img src="assets/images/pic 6.jpeg" style="width:20%; height:20%;"> 
+    </header>
 
 
-    <footer>
-        Copyright
-    </footer>
+
+
+
+<div class="container">
+
+    <section id="bio">
+        
+        <br>
+
+      <h1>Portfolio</h1>
+
+      <br>
+
+      <hr>
+
+      <!-- making each picture and text a div so I can edit in CSS easier -->
+      
+      
+    <div class="portfolio-1">
+        <img id="portfolio-image" src="assets/images/pic 1.jpeg" alt="Portfolio 1">
+        <div class="portfolio-1-text">Hangman</div>
+    </div> 
+
+    <div class="portfolio-2">
+      <img id="portfolio-image" src="assets/images/pic 2.jpeg" alt="Portfolio 2">
+      <div class="portfolio-2-text">RPG Game</div>
+    </div>
+
+      <br>
+
+    <div class="portfolio-3">  
+      <img id="portfolio-image" src="assets/images/pic 3.jpeg" alt="Portfolio 3">
+      <div class="portfolio-3-text">Trivia Game</div>
+    </div>
+
+    <div class="portfolio-4"> 
+      <img id="portfolio-image" src="assets/images/pic 4.jpeg" alt="Portfolio 4">
+      <div class="portfolio-4-text">Rutgers Info Widget</div>
+    </div>  
+
+      <br>
+
+    <div class="portfolio-5">  
+      <img id="portfolio-image" src="assets/images/pic 5.jpeg" alt="Portfolio 5">
+      <div class="portfolio-5-text">Rock Paper Scissors</div>
+    </div> 
+
+                                
+    </section>
+
+</div>
+
+<footer id="footer">
+        <div>
+    
+        <p>Copyright 2019 ©</p>
+    
+        </div>
+ </footer>  
+
 
 </body>
+
+
 </html>
